@@ -3,8 +3,6 @@
 // 12 -> 2
 // 85 -> 8
 
-
-Console.Clear ()
 int x = new Random().Next(10, 100);
 Console.WriteLine(x);
 int nam1 = x % 10;
