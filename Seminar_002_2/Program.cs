@@ -3,9 +3,18 @@
 // 782 -> 72
 // 918 -> 98
 
+// вариант 1
+// int x = new Random().Next(100, 1000);
+// Console.WriteLine(x);
+// int nam1 = x % 10;
+// int nam2 = x /100;
+// Console.Write(nam2);
+// Console.WriteLine (nam1);
+
+// вариант 2
 int x = new Random().Next(100, 1000);
 Console.WriteLine(x);
-int nam1 = x % 10;
-int nam2 = x /100;
-Console.Write(nam2);
-Console.WriteLine (nam1);
+int nam1 = x / 100;
+int nam2 = x / 10;
+int nam3 = x % 10;
+Console.WriteLine($"{nam1}{nam3}");
