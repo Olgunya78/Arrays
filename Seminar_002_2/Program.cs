@@ -33,6 +33,17 @@ Console.WriteLine(x);
 Console.WriteLine (c);
 }
 
-zadacha1();
+void zadacha4()
+{
+int x = new Random().Next(100, 1000);
+Console.WriteLine(x);
+int handers = x / 100;
+int nam1 = x / 10;
+int nam2 = x % 10;
+Console.WriteLine(handers * 10 + nam2);
+}
+
+// zadacha1();
 // zadacha2();
 // zadacha3();
+zadacha4();
