@@ -12,7 +12,6 @@ int nam2 = x % 10;
 Console.Write(nam1);
 Console.WriteLine (nam2);
 }
-
 void zadacha2()
 {// вариант 2
 int x = new Random().Next(100, 1000);
@@ -22,7 +21,6 @@ int nam2 = x / 10;
 int nam3 = x % 10;
 Console.WriteLine($"{nam1}{nam3}");
 }
-
 void zadacha3()
 {// вариант 3
 int x = new Random().Next(100, 1000);
@@ -32,7 +30,6 @@ string c = Convert.ToString (nam1) + Convert.ToString (nam2);
 Console.WriteLine(x);
 Console.WriteLine (c);
 }
-
 void zadacha4()
 {
 int x = new Random().Next(100, 1000);
