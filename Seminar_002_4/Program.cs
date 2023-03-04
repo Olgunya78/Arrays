@@ -19,5 +19,5 @@ int nam = Convert.ToInt32(Console.ReadLine());
 if (nam % 7 == 0 && nam % 23 == 0) Console.WriteLine ($"Число {nam} кратно и 7 и 23");
 else Console.WriteLine ($"Число {nam} некратно одновременно 7 и 23");
 }
-// zadacha1();
+zadacha1();
 zadacha2();
