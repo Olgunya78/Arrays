@@ -43,7 +43,7 @@ int nam2 = x % 10;
 Console.WriteLine(handers * 10 + nam2);
 }
 
-// zadacha1();
-// zadacha2();
-// zadacha3();
+zadacha1();
+zadacha2();
+zadacha3();
 zadacha4();
