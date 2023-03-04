@@ -37,6 +37,6 @@ else if (tens > ones) {Console.WriteLine($"{tens} больше, {ones} мень�
 else {Console.WriteLine($"{ones} больше, {tens} меньше");}
 }
 
-// zadacha91();
-// zadacha92();
+zadacha91();
+zadacha92();
 zadacha9();
