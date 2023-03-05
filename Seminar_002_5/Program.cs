@@ -26,5 +26,17 @@ int nam2 = Convert.ToInt32(Console.ReadLine());
 if (nam1 == nam2 * nam2 || nam2 == nam1 * nam1) Console.WriteLine($"Одно число является квадратом другого");
 else Console.WriteLine($"одно число не является квадратом другого");
 }
+void zadacha3()
+{
+// вариант решения с функцией
+Console.Write("Введите число 1: ");
+int nam1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите число 2: ");
+int nam2 = Convert.ToInt32(Console.ReadLine());
+if (nam1 == Math.Pow(nam2, 2) || nam2 == Math.Pow(nam1, 2)) Console.WriteLine($"Одно число является квадратом другого");
+else Console.WriteLine($"одно число не является квадратом другого");
+}
+
 // zadacha1();
-zadacha2();
+// zadacha2();
+zadacha3();
