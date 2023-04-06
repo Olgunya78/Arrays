@@ -38,6 +38,6 @@ else {Console.WriteLine($"рабочиий день");}
 else Console.WriteLine($"нет такого дня недели на свете");
 }
 
-// variant1();
-variant2();
+variant1();
+// variant2();
 // variant3();
